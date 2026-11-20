@@ -6,14 +6,14 @@
    ===================================================================== */
 window.SITE={
   /* --- Contact details --- */
-  email:'',              // e.g. 'info@yoursite.com'
-  whatsapp:'',           // number with country code, e.g. '+27821234567'
+  email:'almahadannumani@gmail.com',              // e.g. 'info@yoursite.com'
+  whatsapp:'+27703932000',           // number with country code, e.g. '+27821234567'
 
   /* --- Social media channels --- */
-  instagram:'',          // '@yourhandle' or the full profile link
-  whatsappChannel:'',    // full WhatsApp channel or group link
-  whatsappChannelName:'', // name shown on the site instead of the link, e.g. 'Al-Ma’had Updates'
-  telegram:'',           // '@yourhandle' or the full link
+  instagram:'@almahad-annumani',          // '@yourhandle' or the full profile link
+  whatsappChannel:'https://whatsapp.com/channel/0029VbCyIbeDuMRbpkv0Cn0g',    // full WhatsApp channel or group link
+  whatsappChannelName:'Announcements', // name shown on the site instead of the link, e.g. 'Al-Ma’had Updates'
+  telegram:'@arabic4every1',           // '@yourhandle' or the full link
 
   /* --- Document pages (full web addresses, e.g. 'https://yoursite.com/privacy') --- */
   privacyPolicy:'',
