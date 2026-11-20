@@ -10,9 +10,9 @@ window.SITE={
   whatsapp:'+27703932000',           // number with country code, e.g. '+27821234567'
 
   /* --- Social media channels --- */
-  instagram:'https://www.instagram.com/almahad_annumani?hvrq=MW5pZ2hiMXE3aWI2OQ%3D%3D&utm_source=qr',          // '@yourhandle' or the full profile link
+  instagram:'@almahad_annumani',          // '@yourhandle' or the full profile link
   whatsappChannel:'https://whatsapp.com/channel/0029VbCyIbeDuMRbpkv0Cn0g',    // full WhatsApp channel or group link
-  telegram:'https://t.me/arabic4every1',           // '@yourhandle' or the full link
+  telegram:'@arabic4every1',           // '@yourhandle' or the full link
 
   /* --- Document pages (full web addresses, e.g. 'https://yoursite.com/privacy') --- */
   privacyPolicy:'',
