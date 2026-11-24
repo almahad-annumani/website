@@ -10,7 +10,7 @@ window.SITE={
   whatsapp:'+27703932000',           // number with country code, e.g. '+27821234567'
 
   /* --- Social media channels --- */
-  instagram:'@almahad-annumani',          // '@yourhandle' or the full profile link (handles use only letters, numbers, . and _ : NO hyphens)
+  instagram:'@almahad_annumani',          // '@yourhandle' or the full profile link (handles use only letters, numbers, . and _ : NO hyphens)
   whatsappChannel:'https://whatsapp.com/channel/0029VbCyIbeDuMRbpkv0Cn0g',    // full WhatsApp channel or group link
   whatsappChannelName:'Announcements',// the name shown on the site for the channel link, e.g. 'Al-Ma’had An-Nu’mānī'
   telegram:'@arabic4every1',            // '@yourhandle' or the full link
