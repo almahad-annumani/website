@@ -62,3 +62,4 @@ img{max-width:100%}
 @media(max-width:900px){.fg{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 20px}.fg .sq{grid-column:1/-1;max-width:140px;padding:10px}}
 @media(max-width:560px){.fg{grid-template-columns:minmax(0,1fr)}.fg .sq{max-width:120px}}
 *,*::before,*::after{font-family:var(--font)!important}
+.btn.ld{opacity:.75;pointer-events:none;cursor:progress}.btn .sp{display:inline-block;width:12px;height:12px;margin-right:8px;vertical-align:-2px;border:2px solid #fff6;border-top-color:#fff;border-radius:50%;animation:spn .7s linear infinite}@keyframes spn{to{transform:rotate(360deg)}}@media (prefers-reduced-motion:reduce){.btn .sp{animation-duration:1.8s}}
