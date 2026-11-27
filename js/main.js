@@ -162,6 +162,7 @@ Promise.all([api('getCourses'),sf(api('getGroups')),sf(api('getHomepageCards')),
 document.getElementById('fd').innerHTML=[['codeOfConduct','Code of Conduct'],['privacyPolicy','Privacy Policy'],['termsAndConditions','Terms and Conditions']].filter(x=>S[x[0]]).map(x=>`<a class="g" href="${esc(S[x[0]])}" target="_blank" rel="noopener" style="text-decoration:underline">${x[1]}</a>`).join('');
 {const d=rows([row('Email',S.email,'email'),row('WhatsApp',S.whatsapp,'whatsapp')]),so=rows([row('Instagram',S.instagram,'instagram'),row('WhatsApp Channel',S.whatsappChannel,'channel',S.whatsappChannelName||'Al-Ma’had An-Nu’mānī'),row('Telegram',S.telegram,'telegram')]);
  document.getElementById('fc').innerHTML=(d?`<span class="h">Contact</span><p>${d}</p>`:'')+(so?`<span class="h" style="margin-top:14px">Follow us</span><p>${so}</p>`:'')}
+{const dl=S.developerLink;if(dl)document.getElementById('dv').innerHTML=`<a class="g" href="${esc(dl)}" target="_blank" rel="noopener" style="text-decoration:underline">shabkah.dev</a>`}
 /* referral code: read ?ref= on page load, validate with the script, remember it for the attribution period */
 {let r='';try{r=(new URLSearchParams(location.search).get('ref')||'').trim().toUpperCase()}catch(e){}
  if(r)api('resolveRef',{ref:r}).then(d=>{if(d&&d.valid)refSet(r,d.attribution_days)}).catch(()=>{})}
